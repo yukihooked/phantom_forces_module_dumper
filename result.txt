@@ -1,0 +1,2437 @@
+gunbob	function: 0x00000000c1830f5b
+call	function: 0x00000000e7e9cc33
+updateplayernames	function: 0x000000008fbdc383
+replication	table: 0x000000004948bcab
+	cleanup	function: 0x00000000c061e93b
+	thickcastplayers	function: 0x00000000aadd8cbb
+	removecharacterhash	function: 0x00000000a2460543
+	update	function: 0x00000000bdae0c4b
+	getplayerhit	function: 0x000000003fcb040b
+	getallparts	function: 0x000000001475fdfb
+	disable3psounds	false
+	step	function: 0x00000000b176c273
+	setlowms	function: 0x000000001b2daa8b
+	sethighms	function: 0x00000000eee8b743
+	getupdater	function: 0x0000000000b0a53b
+	getbodyparts	function: 0x000000008248f8f3
+bulletcheck	function: 0x0000000091b0733b
+getupdater	function: 0x0000000000b0a53b
+loadplayer	function: 0x00000000db320f63
+animation	table: 0x00000000031889e3
+	oldplayer	function: 0x00000000ab5a23cb
+	player	function: 0x00000000ab5a23cb
+	oldreset	function: 0x00000000a597eeb3
+	reset	function: 0x00000000a597eeb3
+gunsway	function: 0x00000000d2771a33
+physics	table: 0x00000000ad64af13
+	timehit	function: 0x00000000ba3e5cd3
+sound	table: 0x00000000945eae53
+	clear	function: 0x00000000d7de67eb
+	GetPreloadFolder	function: 0x00000000c7a49e43
+	soundfonts	table: 0x000000002de8dc3b
+		Enum.Material.Slate	concrete
+		Enum.Material.LeafyGrass	grass
+		Enum.Material.Asphalt	concrete
+		Enum.Material.Cobblestone	concrete
+		Enum.Material.Plastic	metal
+		Enum.Material.CrackedLava	hardstep
+		Enum.Material.Ground	hardstep
+		Enum.Material.WoodPlanks	wood
+		Enum.Material.Pebble	concrete
+		Enum.Material.Basalt	concrete
+		Enum.Material.Neon	hardstep
+		Enum.Material.Glacier	hardstep
+		Enum.Material.Concrete	concrete
+		Enum.Material.Wood	wood
+		Enum.Material.DiamondPlate	metal
+		Enum.Material.Metal	metal
+		Enum.Material.Ice	concrete
+		Enum.Material.Brick	concrete
+		Enum.Material.SmoothPlastic	metal
+		Enum.Material.Mud	hardstep
+		Enum.Material.Sandstone	sand
+		Enum.Material.Grass	grass
+		Enum.Material.Fabric	concrete
+		Enum.Material.Granite	concrete
+		Enum.Material.Foil	metal
+		Enum.Material.CorrodedMetal	metal
+		Enum.Material.Rock	concrete
+		Enum.Material.Limestone	concrete
+		Enum.Material.Pavement	concrete
+		Enum.Material.Salt	concrete
+		Enum.Material.Glass	metal
+		Enum.Material.Sand	sand
+		Enum.Material.Marble	concrete
+		Enum.Material.Snow	sand
+	CreateSubset	function: 0x00000000726043c3
+	CreateSoundGroup	function: 0x00000000ec8f7fbb
+	EditSoundGroup	function: 0x000000008ef57013
+	PreloadFolder	Folder
+	materialhitsound	table: 0x000000003ec81a9b
+		Enum.Material.DiamondPlate	imp_metal
+		Enum.Material.Metal	imp_metal
+		Enum.Material.Ice	imp_concrete
+		Enum.Material.Brick	imp_concrete
+		Enum.Material.SmoothPlastic	imp_metal
+		Enum.Material.Cobblestone	imp_concrete
+		Enum.Material.Plastic	imp_metal
+		Enum.Material.Grass	imp_grass
+		Enum.Material.WoodPlanks	imp_wood
+		Enum.Material.Fabric	imp_grass
+		Enum.Material.Granite	imp_concrete
+		Enum.Material.Foil	imp_metal
+		Enum.Material.CorrodedMetal	imp_metal
+		Enum.Material.Pebble	imp_concrete
+		Enum.Material.Neon	imp_concrete
+		Enum.Material.Slate	imp_concrete
+		Enum.Material.Sand	imp_grass
+		Enum.Material.Concrete	imp_concrete
+		Enum.Material.Marble	imp_concrete
+		Enum.Material.Wood	imp_wood
+	PlaySound	function: 0x0000000037c6ddab
+	PlaySoundId	function: 0x0000000028a1888b
+	play	function: 0x000000006ae3998b
+	getsound	function: 0x000000002aaa2653
+cam	table: 0x00000000fec6cddb
+	isspectating	function: 0x0000000080a13233
+	magspring	table: 0x00000000495182fb
+		_v0	0
+		_t0	1652716149.4345179
+		init	function: 0x00000000e3c859fb
+		_p1	0
+		_s	12
+		update	function: 0x000000001a0e78f3
+		accelerate	function: 0x0000000077737dfb
+		_d	1
+		_p0	0
+	currentcamera	Camera
+	directlook	false
+	menufov	60
+	controllerymult	0.5000000000000001
+	sensitivitymult	1
+	maxoffsetangle	0.5235987755982988
+	swayspring	table: 0x000000005a219c5b
+		_v0	0
+		_t0	1652716031.8194406
+		init	function: 0x00000000e3c859fb
+		_p1	0
+		_s	4
+		update	function: 0x000000001a0e78f3
+		accelerate	function: 0x0000000077737dfb
+		_d	1
+		_p0	0
+	cframe	-3555.95044, -1580.13025, -4222.97119, -0.875544071, 0.0867301971, -0.47529003, -7.45058149e-09, 0.983755469, 0.17951417, 0.483138502, 0.157172561, -0.861321092
+	offset	0, 1.5, 0
+	controllersens	1.0000000000000002
+	basefov	80
+	step	function: 0x000000006ef39c5b
+	angles	0, 0, 0
+	delta	0, 0, 0
+	setaimsensitivity	function: 0x0000000003da0ad3
+	setdirectlookmode	function: 0x000000006fa32b3b
+	lookvector	0.4752900302410126, -0.17951416969299316, 0.8613210916519165
+	changemenufov	function: 0x00000000b1a9b1cb
+	startspeed	0
+	setmenucf	function: 0x00000000858d48f3
+	controlleraimsens	0.25000000000000006
+	setmenucam	function: 0x0000000049dfbad3
+	offsetspring	table: 0x0000000005b5d87b
+		_v0	0, 0, 0
+		_t0	1652716031.8194451
+		init	function: 0x00000000e3c859fb
+		_p1	0, 0, 0
+		_s	16
+		update	function: 0x000000001a0e78f3
+		accelerate	function: 0x0000000077737dfb
+		_d	1
+		_p0	0, 0, 0
+	xinvert	1
+	setfirstpersoncam	function: 0x000000002e6ab403
+	zanglespring	table: 0x00000000344dc39b
+		_v0	0
+		_t0	1652716031.8194444
+		init	function: 0x00000000e3c859fb
+		_p1	0
+		_s	8
+		update	function: 0x000000001a0e78f3
+		accelerate	function: 0x0000000077737dfb
+		_d	1
+		_p0	0
+	basecframe	0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1
+	suppress	function: 0x0000000043c5b60b
+	setmenuspring	function: 0x00000000c4b7b7db
+	directlookenabled	true
+	setmenufov	function: 0x0000000071f32493
+	setfixedcam	function: 0x00000000d2ace91b
+	aimsensitivity	1.0000000000000004
+	setspectate	function: 0x00000000dd87593b
+	shake	function: 0x00000000695f2f9b
+	setsway	function: 0x00000000eebe01eb
+	spectatetype	thirdperson
+	shakecframe	0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1
+	controlleraccel	2.5000000000000004
+	type	menu
+	setmagnificationspeed	function: 0x00000000314bbbfb
+	subcf	0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1
+	setmagnification	function: 0x00000000aeceb6f3
+	controlleraimmult	1
+	hit	function: 0x00000000e3ea60db
+	magnify	function: 0x00000000f640b2c3
+	setsensitivity	function: 0x00000000b6c9252b
+	minangle	-1.5609788497524284
+	swayspeed	table: 0x000000002b11dd3b
+		_v0	0
+		_t0	1652716031.8194435
+		init	function: 0x00000000e3c859fb
+		_p1	1
+		_s	6
+		update	function: 0x000000001a0e78f3
+		accelerate	function: 0x0000000077737dfb
+		_d	1
+		_p0	0
+	shakespring	table: 0x000000007881991b
+		_v0	0, 0, 0
+		_t0	1652716031.819436
+		init	function: 0x00000000e3c859fb
+		_p1	0, 0, 0
+		_s	12
+		update	function: 0x000000001a0e78f3
+		accelerate	function: 0x0000000077737dfb
+		_d	0.65
+		_p0	0, 0, 0
+	setswayspeed	function: 0x0000000084753ee3
+	maxangle	1.5609788497524284
+	controlleraimaccel	5
+	sensitivity	1.0000000000000004
+net	table: 0x00000000a06de80b
+	fetch	function: 0x0000000075629453
+	serverping	43
+	playerping	28
+	send	function: 0x0000000056f2e06b
+	fromservertick	function: 0x000000002e14f85b
+	ready	function: 0x000000000d640483
+	servertick	function: 0x00000000bb918413
+	add	function: 0x0000000028539583
+dirtyplayerdata	table: 0x00000000b549d20b
+	skillmetrics	table: 0x00000000b263afbb
+		1	table: 0x00000000c35f911b
+			playtime	630.935357093811
+			kills	67
+			deaths	26
+		2	table: 0x00000000f6a2553b
+			deaths	11
+			kills	45
+			playtime	583.1048188209534
+		3	table: 0x0000000007af5b9b
+			deaths	15
+			kills	62
+			playtime	762.8509044647217
+		4	table: 0x000000001944207b
+			deaths	28
+			kills	50
+			playtime	747.4799616336823
+		5	table: 0x000000002a371edb
+			deaths	22
+			kills	34
+			playtime	646.0451197624207
+		6	table: 0x000000003b3a12bb
+			deaths	16
+			kills	19
+			playtime	339.3298571109772
+		7	table: 0x00000000b3bf641b
+			deaths	15
+			kills	17
+			playtime	413.5772178173065
+	unlocks	table: 0x0000000068c603db
+		DRAGUNOV SVU	table: 0x00000000287bbcbb
+			kills	1
+		HONEY BADGER	table: 0x00000000f48fa19b
+			kills	1
+		C7A2	table: 0x000000006f0fda9b
+			kills	11
+		MK11	table: 0x0000000092a7d7db
+			kills	5
+		CANDY CANE	table: 0x000000002dfc05fb
+		BARE FISTS	table: 0x000000007ad7fddb
+		GLOCK 18	table: 0x00000000f0f7c8db
+			kills	1
+		TANTO	table: 0x00000000e753cb3b
+		GROZA-4	table: 0x000000000437e2db
+			kills	1
+		M2011	table: 0x00000000e68e0f9b
+			kills	2
+		RITUAL SICKLE	table: 0x000000005e339c3b
+			kills	1
+		M60	table: 0x0000000048a79d5b
+			kills	7
+		DRAGUNOV SVDS	table: 0x000000003ef7f75b
+			kills	1
+		MATEBA 6	table: 0x00000000b407e25b
+			kills	1
+		AN-94	table: 0x0000000039bb9bfb
+			kills	2
+		AUG A2	table: 0x00000000064bb67b
+			kills	4
+		GLOCK 17	table: 0x00000000a4dfe51b
+		HK416	table: 0x000000001967b4db
+			kills	3
+		KS-23M	table: 0x00000000d667ce5b
+			kills	2
+		DBV12	table: 0x000000008adfdf1b
+			kills	1
+		M4A1	table: 0x0000000003fbf0bb
+			kills	131
+		M9	table: 0x00000000b223f6fb
+			kills	3
+		x	5
+		CROWBAR	table: 0x000000002a3fd01b
+			kills	11
+		KNIFE	table: 0x00000000a39011bb
+		INTERVENTION	table: 0x00000000d6ef959b
+			kills	1
+		BLOXY	table: 0x000000004fc3fa3b
+		AK12	table: 0x000000001cffea1b
+			kills	10
+		MP5SD	table: 0x000000007c53c17b
+			kills	5
+		HARDBALLER	table: 0x00000000c1122cfb
+			kills	3
+		M1911	table: 0x00000000e1ebe27b
+			kills	53
+			M1911 Dart Conversion	true
+		REMINGTON 700	table: 0x00000000c7cb973b
+			kills	2
+		BFG 50	table: 0x000000008b83fbbb
+			kills	1
+		COLT LMG	table: 0x000000001b3bc6bb
+			kills	5
+		MP5K	table: 0x00000000c117c85b
+			kills	37
+		FRAG	table: 0x0000000069e3ff7b
+		MP7	table: 0x0000000058efc09b
+			kills	2
+	settings	table: 0x0000000045a9eb6b
+		optionsv2	table: 0x000000004d2fd69b
+			disablerobloxparticles	false
+			disableglobalshadows	false
+			directlook	true
+			disabledynamicstance	false
+			controllerymult	50
+			renderlowms	1
+			disable1pcamoskins	false
+			aimaccel	50
+			killfeedfixed	false
+			controllersens	50
+			disablechat	false
+			disabledaycycle	false
+			enableinverty3	false
+			controlleraimsens	50
+			disableshaders	false
+			maxbloodt	2
+			casings	false
+			radarhudfixed	false
+			muzzle	false
+			renderhighms	3
+			looksen	80
+			disablelobbymodels	false
+			disable3pcamoskins	false
+			disablevotekick	false
+			disable3psounds	false
+			streamer	false
+			crossframefixed	false
+			maxbloodparts	500
+			holes	false
+			ragdollsfixed	false
+			sprinttoggle	false
+			sparks	false
+			disableblood	false
+			fov	80
+			roundfixed	false
+			lookaccel	50
+			ammohudfixed	false
+			aimsen	80
+		x	5
+		inventorydata	table: 0x00000000fd0ffc0b
+			1	table: 0x00000000ccebfd6b
+				Name	Japan
+				Type	Case Key
+			2	table: 0x0000000031fff18b
+				Name	Wood
+				Type	Case
+			3	table: 0x0000000064f3eeab
+				Name	Wood 2
+				Type	Case Key
+		classdata	table: 0x000000006735962b
+			Recon	table: 0x00000000093dddeb
+				Equipment	table: 0x00000000c9527ceb
+					Camo	table: 0x000000003a057f4b
+						Slot2	table: 0x00000000714646cb
+							TextureProperties	table: 0x000000006079742b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000057786d8b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000002b5479ab
+							TextureProperties	table: 0x00000000146c700b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000026d796b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	
+					Attachments	table: 0x0000000046790feb
+				Knife	table: 0x0000000077399a2b
+					Camo	table: 0x000000006639878b
+						Slot2	table: 0x00000000a32d6d0b
+							TextureProperties	table: 0x000000008c12726b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000fd4109cb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x0000000051ba69eb
+							TextureProperties	table: 0x000000004085524b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000b3b44cab
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	KNIFE
+					Attachments	table: 0x00000000ef90672b
+				Primary	table: 0x000000008ed1afcb
+					Camo	table: 0x00000000ffe14d2b
+						Slot2	table: 0x00000000382513ab
+							TextureProperties	table: 0x000000002aae5e0b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000015895f6b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000ec9e548b
+							TextureProperties	table: 0x00000000dddd26eb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000c914194b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	INTERVENTION
+					Attachments	table: 0x0000000004c85ccb
+						Optics	
+						Barrel	
+						Underbarrel	
+						Ammo	
+						Other	
+				Secondary	table: 0x000000002988356b
+					Camo	table: 0x0000000018e93acb
+						Slot2	table: 0x0000000052f5444b
+							TextureProperties	table: 0x0000000043e5a6ab
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000b0f1b30b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x0000000007fa002b
+							TextureProperties	table: 0x0000000074fd398b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000065fc33eb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	M9
+					Attachments	table: 0x00000000a101886b
+						Other	
+						Ammo	
+						Barrel	
+						Optics	
+				Grenade	table: 0x000000001aa1de4b
+					Camo	table: 0x000000002bb110ab
+						Slot2	table: 0x00000000fe9dae8b
+							TextureProperties	table: 0x00000000eddd88eb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000dce5b34b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000003cc0190b
+							TextureProperties	table: 0x00000000ce11266b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000008fd5cb2b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	FRAG
+					Attachments	table: 0x00000000cbe9a5ab
+			Support	table: 0x0000000092cf8e0b
+				Equipment	table: 0x000000000737d64b
+					Camo	table: 0x0000000010c3e8ab
+						Slot2	table: 0x00000000ad03c32b
+							TextureProperties	table: 0x00000000b9dfe68b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000088e3f0eb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x0000000061af010b
+							TextureProperties	table: 0x0000000072a3ee6b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000043d7edcb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	
+					Attachments	table: 0x000000009f97fb4b
+				Knife	table: 0x00000000bc5b0aeb
+					Camo	table: 0x000000008f86254b
+						Slot2	table: 0x00000000cbb798cb
+							TextureProperties	table: 0x00000000d4bb9e2b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000025bfdb8b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000994bd7ab
+							TextureProperties	table: 0x00000000e82fda0b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000fb2ba36b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	KNIFE
+					Attachments	table: 0x000000003623c5eb
+				Primary	table: 0x00000000c874242b
+					Camo	table: 0x000000002773bfeb
+						Slot2	table: 0x000000006093b46b
+							TextureProperties	table: 0x000000007347c3cb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000004213292b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000003407b84b
+							TextureProperties	table: 0x00000000057382ab
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000126fb70b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	COLT LMG
+					Attachments	table: 0x00000000ad5c108b
+						Optics	
+						Barrel	
+						Underbarrel	
+						Ammo	
+						Other	
+				Secondary	table: 0x00000000625459cb
+					Camo	table: 0x00000000711b972b
+						Slot2	table: 0x000000008c6849ab
+							TextureProperties	table: 0x000000009d6f200b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000ea0a096b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000401f8a8b
+							TextureProperties	table: 0x00000000af5baceb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000be974f4b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	M9
+					Attachments	table: 0x00000000fb4736cb
+						Other	
+						Ammo	
+						Barrel	
+						Optics	
+				Grenade	table: 0x00000000830b8f6b
+					Camo	table: 0x00000000f4346ccb
+						Slot2	table: 0x000000002730024b
+							TextureProperties	table: 0x0000000036231cab
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000004ae5d0b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000e5a34a2b
+							TextureProperties	table: 0x00000000d6be578b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000d84319eb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	FRAG
+					Attachments	table: 0x000000001383426b
+			Scout	table: 0x000000006892e1ab
+				Equipment	table: 0x00000000c6e7744b
+					Camo	table: 0x0000000039f276ab
+						Slot2	table: 0x000000007dda7d2b
+							TextureProperties	table: 0x000000006d1f648b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000005fd876eb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x0000000028cf430b
+							TextureProperties	table: 0x000000001b8c786b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000000ae77fcb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	
+					Attachments	table: 0x00000000b097494b
+				Knife	table: 0x000000006fdb58eb
+					Camo	table: 0x000000005ce6634b
+						Slot2	table: 0x0000000082e64acb
+							TextureProperties	table: 0x00000000f5f3502b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000e480698b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000004d8b15ab
+							TextureProperties	table: 0x00000000a2cc140b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000093f3656b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	KNIFE
+					Attachments	table: 0x00000000d7f083eb
+				Primary	table: 0x000000008140262b
+					Camo	table: 0x00000000e7a22deb
+						Slot2	table: 0x000000002baa966b
+							TextureProperties	table: 0x00000000189685cb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000009d89b2b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000d5372e4b
+							TextureProperties	table: 0x00000000c40440ab
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000003acca90b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	MP5K
+					Attachments	table: 0x000000007e185e8b
+						Optics	
+						Barrel	
+						Underbarrel	
+						Ammo	
+						Other	
+				Secondary	table: 0x00000000336b0c6b
+					Camo	table: 0x000000001e5b312b
+						Slot2	table: 0x000000005d84bfab
+							TextureProperties	table: 0x000000004caea20b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000a322bb6b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000000f1eb88b
+							TextureProperties	table: 0x00000000781aa2eb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000006954bd4b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	GLOCK 17
+					Attachments	table: 0x00000000923730cb
+						Other	
+						Ammo	
+						Barrel	
+						Optics	
+				Grenade	table: 0x000000005b6ed80b
+					Camo	table: 0x000000004a70d16b
+						Slot2	table: 0x00000000f77cd7eb
+							TextureProperties	table: 0x00000000e044c04b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000d10b2aab
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000a5009ecb
+							TextureProperties	table: 0x0000000094729c2b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000877e958b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	FRAG
+					Attachments	table: 0x00000000c26e2f0b
+			curclass	Assault
+			Assault	table: 0x000000009b4552ab
+				Equipment	table: 0x0000000084bcc1eb
+					Camo	table: 0x00000000f5b6fa4b
+						Slot2	table: 0x000000003186f1cb
+							TextureProperties	table: 0x000000002d5acf2b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000001c5ce28b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000e22af4ab
+							TextureProperties	table: 0x00000000d328850b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000c048ea6b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	
+					Attachments	table: 0x000000000f1c14eb
+				Knife	table: 0x0000000030e4e52b
+					Camo	table: 0x000000001e028eeb
+						Slot2	table: 0x000000005ac2e76b
+							TextureProperties	table: 0x00000000483604cb
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x00000000b922f22b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000000dd6e14b
+							TextureProperties	table: 0x000000007ca0cbab
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x000000006b90f60b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	CROWBAR
+					Attachments	table: 0x0000000097bcff8b
+				Primary	table: 0x0000000011e0cb4b
+					Camo	table: 0x00000000738eac0b
+						Slot2	table: 0x00000000b7fec18b
+							TextureProperties	table: 0x0000000098fadbeb
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x0000000089f91c4b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x0000000064f28d6b
+							TextureProperties	table: 0x0000000055e492cb
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x0000000046f4a82b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	M4A1
+					Attachments	table: 0x00000000fae81eab
+						Optics	Delta Sight
+						Barrel	R2 Suppressor
+						Underbarrel	Angled Grip
+						Ammo	
+						Other	Green Laser
+				Secondary	table: 0x0000000070ac136b
+					Camo	table: 0x00000000573a4e2b
+						Slot1	table: 0x0000000088cab8ab
+							TextureProperties	table: 0x00000000fb0eb10b
+								StudsPerTileU	1
+								Transparency	0
+								StudsPerTileV	1
+								TextureId	
+							Name	
+							BrickProperties	table: 0x00000000ea2d3e6b
+								DefaultColor	false
+								Material	SmoothPlastic
+								Reflectance	0
+								BrickColor	Black
+						Slot2	table: 0x00000000443eab8b
+							TextureProperties	table: 0x00000000b6b8b5eb
+								StudsPerTileU	1
+								Transparency	0
+								StudsPerTileV	1
+								TextureId	
+							Name	
+							BrickProperties	table: 0x0000000099b8864b
+								DefaultColor	false
+								Material	SmoothPlastic
+								Reflectance	0
+								BrickColor	Black
+					Name	M1911
+					Attachments	table: 0x00000000dda43dcb
+						Optics	H&K Sight
+						Ammo	M1911 Dart Conversion
+						Barrel	Suppressor
+						Other	Laser
+				Grenade	table: 0x000000008a6c470b
+					Camo	table: 0x00000000f96d646b
+						Slot2	table: 0x000000003c205aeb
+							TextureProperties	table: 0x000000002d11554b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000124227ab
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000e85693cb
+							TextureProperties	table: 0x00000000de82992b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000cf50a08b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Name	FRAG
+					Attachments	table: 0x00000000038d0a0b
+		attloadoutdata	table: 0x0000000079b91abb
+			DRAGUNOV SVU	table: 0x00000000c4af239b
+				TA33 Acog	table: 0x000000002e87a95b
+					kills	1
+				Pistol Grip	table: 0x00000000d58a387b
+					kills	1
+				SVU 953 Conversion	table: 0x00000000f33baabb
+					kills	1
+				Ballistics Tracker	table: 0x00000000e247b6db
+					kills	1
+				Muzzle Brake	table: 0x00000000003f8c1b
+					kills	1
+			HONEY BADGER	table: 0x00000000df3337fb
+				Potato Grip	table: 0x00000000459eb71b
+					kills	1
+				Mini Sight	table: 0x000000002b08bbdb
+					kills	1
+				Muzzle Brake	table: 0x00000000efc4015b
+					kills	1
+				Green Laser	table: 0x00000000f88b383b
+					kills	1
+				Hollow Point	table: 0x0000000009ae3e9b
+					kills	1
+			C7A2	table: 0x00000000976b633b
+				Blue Laser	table: 0x00000000fd7e161b
+					kills	11
+				Stubby Grip	table: 0x00000000ec6304bb
+					kills	11
+				AR 20 Tact Conversion	table: 0x00000000ca8b5e7b
+					kills	11
+				Muzzle Brake	table: 0x00000000db741cdb
+					kills	11
+				Kousaku Sight	table: 0x00000000b84e599b
+					kills	11
+			DRAGUNOV SVDS	table: 0x00000000ea3f781b
+				Remove Stock	table: 0x000000001eb2743b
+					kills	1
+				Folding Grip	table: 0x000000000fa7755b
+					kills	1
+				Muzzle Brake	table: 0x00000000fd3043fb
+					kills	1
+			AN-94	table: 0x000000007a9f391b
+				H&K Sight	table: 0x00000000b6283d3b
+					kills	2
+				Laser	table: 0x00000000885a22fb
+					kills	2
+				Folding Grip	table: 0x00000000a7173c5b
+					kills	2
+			MK11	table: 0x000000001f70435b
+				Blue Laser	table: 0x000000004d03837b
+					kills	5
+				Potato Grip	table: 0x000000005c57a9db
+					kills	5
+				Muzzle Brake	table: 0x000000003e6fac9b
+					kills	5
+				Comp Aimpoint	table: 0x000000002f63ae3b
+					kills	5
+			HK416	table: 0x0000000067d74a5b
+				Full Stock	table: 0x000000002ceb577b
+					kills	2
+				M145	table: 0x00000000e8e25dfb
+					kills	1
+				HK337 .300 Conversion	table: 0x00000000fff69f5b
+					kills	1
+				Green Laser	table: 0x00000000cac058bb
+					kills	1
+				Kousaku Sight	table: 0x0000000071044f3b
+					kills	2
+				Folding Grip	table: 0x0000000085ef2d9b
+					kills	2
+				Pistol Grip	table: 0x0000000094e20a7b
+					kills	1
+				Long Barrel (AR)	table: 0x000000000e84823b
+					kills	3
+				Hollow Point	table: 0x00000000bbf710db
+					kills	2
+			MP5K	table: 0x00000000840b493b
+				Vertical Grip	table: 0x00000000db327ebb
+					kills	9
+				R2 Suppressor	table: 0x00000000cba67adb
+					kills	9
+				Laser	table: 0x00000000bab3647b
+					kills	9
+				Hensoldt Z24	table: 0x0000000095cc779b
+					kills	9
+			M4A1	table: 0x000000006410f19b
+				Oil Filter	table: 0x00000000a2b2c2bb
+					kills	2
+				Furro Sight	table: 0x00000000295a1fbb
+					kills	2
+				Blue Laser	table: 0x0000000080b0907b
+					kills	2
+				R2 Suppressor	table: 0x00000000cc3e341b
+					kills	14
+				Green Laser	table: 0x000000006612a53b
+					kills	16
+				Delta Sight	table: 0x00000000ec6ad63b
+					kills	22
+				Compensator	table: 0x00000000449cdafb
+					kills	2
+				Muzzle Booster	table: 0x000000000b48db7b
+					kills	8
+				Kobra Sight	table: 0x000000008276c4db
+					kills	2
+				AR 25-45 Conversion	table: 0x00000000712e8b9b
+					kills	2
+				Laser	table: 0x000000005744d45b
+					kills	11
+				Pistol Grip	table: 0x00000000df76eb5b
+					kills	2
+				Z-Point	table: 0x00000000a17cee1b
+					kills	6
+				Vertical Grip	table: 0x00000000365f211b
+					kills	11
+				Suppressor	table: 0x000000009062ecbb
+					kills	3
+				Angled Grip	table: 0x00000000fa68c49b
+					kills	16
+			GLOCK 18	table: 0x00000000295cfb1b
+				Blue Laser	table: 0x000000004656fe5b
+					kills	1
+				Compensator	table: 0x000000003782fcfb
+					kills	1
+				Reflex Sight	table: 0x000000005560fb3b
+					kills	1
+			AK12	table: 0x00000000d026ed5b
+				Vertical Grip	table: 0x00000000f288ea9b
+					kills	3
+				Green Laser	table: 0x000000000b1687db
+					kills	3
+				Compensator	table: 0x00000000c1a8cc3b
+					kills	3
+				Comp Aimpoint	table: 0x00000000fc4af17b
+					kills	3
+			AUG A2	table: 0x0000000040db63bb
+				Green Laser	table: 0x000000007726605b
+					kills	4
+				Delta Sight	table: 0x0000000066db0efb
+					kills	4
+				Laser	table: 0x0000000051980d1b
+					kills	4
+			M1911	table: 0x00000000c08e309b
+				Suppressor	table: 0x0000000004ded51b
+					kills	22
+				H&K Sight	table: 0x000000001514cbbb
+					kills	22
+				Laser	table: 0x00000000e2e42ddb
+					kills	22
+				M1911 Dart Conversion	table: 0x00000000f3ed0f7b
+					kills	53
+			REMINGTON 700	table: 0x0000000016d12f1b
+				Green Laser	table: 0x000000004becb27b
+					kills	2
+				Angled Grip	table: 0x000000005a0d459b
+					kills	2
+				Compensator	table: 0x0000000025c2273b
+					kills	2
+				PK-A	table: 0x000000003491325b
+					kills	2
+			BFG 50	table: 0x000000009f395ffb
+				Stubby Grip	table: 0x00000000e0024dbb
+					kills	1
+				Ballistics Tracker	table: 0x000000008e36595b
+					kills	1
+				Compensator	table: 0x00000000c3aca57b
+					kills	1
+			MP5SD	table: 0x00000000300c697b
+				Blue Laser	table: 0x00000000659f631b
+					kills	5
+				Stubby Grip	table: 0x00000000525a49bb
+					kills	5
+				Long Barrel (PISTOL)	table: 0x0000000043276fdb
+					kills	5
+				Hensoldt Z24	table: 0x00000000755b94fb
+					kills	5
+			M60	table: 0x0000000078f4b8db
+				Skeleton Grip	table: 0x0000000069fa80bb
+					kills	7
+				Blue Laser	table: 0x00000000d1c92a3b
+					kills	7
+				Z-Point	table: 0x000000008ff8b5fb
+					kills	7
+			KS-23M	table: 0x0000000026a0985b
+				Skeleton Grip	table: 0x000000008e3d001b
+					kills	2
+				Remove Stock	table: 0x000000009db416bb
+					kills	2
+				KS HARPOON	table: 0x00000000490edf9b
+					kills	2
+				ARS Suppressor	table: 0x00000000bf3aebfb
+					kills	2
+				EOTech 552	table: 0x000000006ca4d2db
+					kills	2
+		gunloadoutdata	table: 0x000000005ad3806b
+			Assault	table: 0x000000008474c84b
+				M9	table: 0x000000005d41db5b
+					Camo	table: 0x000000004c71e63b
+						Slot2	table: 0x000000008755cfbb
+							TextureProperties	table: 0x00000000b619f11b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000a519eafb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000736d949b
+							TextureProperties	table: 0x00000000626d8b7b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000009185e1db
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000d458045b
+						Other	
+						Ammo	
+						Barrel	
+						Optics	
+				TANTO	table: 0x000000003e45f2bb
+					Camo	table: 0x000000002fbd841b
+						Slot2	table: 0x000000006031ee9b
+							TextureProperties	table: 0x0000000092a20d7b
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x0000000085950bdb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000005ca1e7fb
+							TextureProperties	table: 0x000000004231f15b
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x000000007301c83b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000b4c5e5bb
+				FRAG	table: 0x00000000c4c2beab
+					Camo	table: 0x00000000f70ebb0b
+						Slot2	table: 0x0000000033de2c8b
+							TextureProperties	table: 0x0000000023192eeb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000004c28414b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000e6e5306b
+							TextureProperties	table: 0x0000000011d427cb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000009d052b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x000000007ec8abab
+				BLOXY	table: 0x0000000098aa876b
+					Camo	table: 0x000000008924a4cb
+						Slot2	table: 0x00000000c5a11a4b
+							TextureProperties	table: 0x00000000f13014ab
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x00000000e001650b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000ba3c522b
+							TextureProperties	table: 0x00000000ab3d5f8b
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x00000000d4b261eb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000a3a4413b
+				AK12	table: 0x0000000021092b4b
+					Camo	table: 0x000000004eca2dab
+						Slot2	table: 0x000000008b02c82b
+							TextureProperties	table: 0x00000000bbfea18b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000aae0bbeb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000007fed0c0b
+							TextureProperties	table: 0x000000006ce42d6b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000009df532cb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000d5f0bc4b
+						Optics	
+						Barrel	
+						Underbarrel	
+						Ammo	
+						Other	
+					table: 0x00000000a71dc71b
+					Camo	table: 0x00000000d6ddd0fb
+						Slot2	table: 0x000000000ae9da7b
+							TextureProperties	table: 0x000000003de5c0db
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000002ef528bb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000f9d99a5b
+							TextureProperties	table: 0x00000000e8899f3b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000001bc99d9b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x000000005ffc121b
+				M1911	table: 0x000000000f761cbb
+					Camo	table: 0x0000000038611e1b
+					Attachments	table: 0x000000002e71d1fb
+						Other	Laser
+						Ammo	M1911 Dart Conversion
+						Barrel	Suppressor
+						Optics	H&K Sight
+				GLOCK 17	table: 0x00000000fa89f53b
+					Camo	table: 0x00000000eba9fb9b
+					Attachments	table: 0x00000000182dc07b
+						Optics	
+						Ammo	
+						Barrel	
+						Other	
+				KNIFE	table: 0x000000007eb2f36b
+					Camo	table: 0x000000006d46c8cb
+						Slot2	table: 0x00000000a986e64b
+							TextureProperties	table: 0x00000000d8b2d8ab
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000c62cd10b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000009c30ee2b
+							TextureProperties	table: 0x000000008b200b8b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000bab115eb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000f5149e6b
+				BARE FISTS	table: 0x00000000e76ee70b
+					Camo	table: 0x00000000f80a046b
+						Slot2	table: 0x000000003d5afaeb
+							TextureProperties	table: 0x000000000e06f54b
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x000000001f2c87ab
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000c956f3cb
+							TextureProperties	table: 0x00000000da98f92b
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x000000002b98c08b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x000000004facea0b
+				CROWBAR	table: 0x00000000648a37db
+					Camo	table: 0x000000009659b1bb
+						Slot2	table: 0x00000000d395ab3b
+							TextureProperties	table: 0x00000000fc6dc19b
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x00000000ed4dd67b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000008759ab1b
+							TextureProperties	table: 0x00000000b0198cfb
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x00000000a159ae5b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x000000001e0514db
+				CANDY CANE	table: 0x00000000c1cdac7b
+					Camo	table: 0x00000000ed3182db
+						Slot2	table: 0x0000000028b23d5b
+							TextureProperties	table: 0x000000005b253c3b
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x000000004a2c3a9b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000001c21a6bb
+							TextureProperties	table: 0x000000000eb1b01b
+								TextureId	
+								Transparency	0
+								StudsPerTileV	1
+								StudsPerTileU	1
+							Name	
+							BrickProperties	table: 0x0000000039813bfb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000754d217b
+				M4A1	table: 0x00000000e5c69dcb
+					Camo	table: 0x00000000129a932b
+					Attachments	table: 0x0000000003d8d68b
+						Other	Green Laser
+						Barrel	R2 Suppressor
+						Underbarrel	Angled Grip
+						Ammo	
+						Optics	Delta Sight
+			Recon	table: 0x0000000040fd0dfb
+					table: 0x0000000071e62f5b
+					Camo	table: 0x0000000062f1323b
+						Slot2	table: 0x00000000a6d5b3bb
+							TextureProperties	table: 0x00000000d81dbd1b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000f6ddbefb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x0000000093c1c89b
+							TextureProperties	table: 0x000000008491a77b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000b5e1b5db
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000e5a5305b
+				KNIFE	table: 0x00000000c44179db
+					Camo	table: 0x00000000f51067bb
+						Slot2	table: 0x0000000032554d3b
+							TextureProperties	table: 0x00000000232c539b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000005c2d687b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000e660891b
+							TextureProperties	table: 0x00000000175172fb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000000866c5b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x000000004d4606db
+				FRAG	table: 0x0000000014aa393b
+					Camo	table: 0x0000000003c9079b
+						Slot2	table: 0x000000004fbda81b
+							TextureProperties	table: 0x000000007ebd93fb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000006c35855b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000003208347b
+							TextureProperties	table: 0x0000000021292adb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000050ba4ebb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x000000009d25a43b
+				INTERVENTION	table: 0x0000000023098e7b
+					Camo	table: 0x0000000052496cdb
+						Slot2	table: 0x000000009905735b
+							TextureProperties	table: 0x0000000088747e3b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000bb6d7c9b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000004d7874bb
+							TextureProperties	table: 0x000000007f79461b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000006e7a79fb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000ab92737b
+						Optics	
+						Barrel	
+						Underbarrel	
+						Ammo	
+						Other	
+				M9	table: 0x000000008a4e529b
+					Camo	table: 0x00000000b881597b
+						Slot2	table: 0x00000000e45d64fb
+							TextureProperties	table: 0x000000001594465b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000000165533b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000a9505fdb
+							TextureProperties	table: 0x00000000c62119bb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000f71e131b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000306e699b
+						Other	
+						Ammo	
+						Barrel	
+						Optics	
+			Support	table: 0x00000000b6af790b
+				M9	table: 0x00000000812a466b
+					Camo	table: 0x00000000901775cb
+						Slot2	table: 0x00000000dcd7534b
+							TextureProperties	table: 0x000000002e0045ab
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000038cf640b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000e3dc6b2b
+							TextureProperties	table: 0x00000000f29f0e8b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000cde268eb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x0000000009e2956b
+						Other	
+						Ammo	
+						Barrel	
+						Optics	
+				KNIFE	table: 0x00000000533f278b
+					Camo	table: 0x00000000a034c9eb
+						Slot2	table: 0x00000000e508926b
+							TextureProperties	table: 0x00000000fa58a9cb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000cb5ac72b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000b6a4b24b
+							TextureProperties	table: 0x0000000087aaacab
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000944e8d0b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000d89eda8b
+				FRAG	table: 0x00000000fbdaad2b
+					Camo	table: 0x00000000ca9cb48b
+						Slot2	table: 0x000000000ecf3e0b
+							TextureProperties	table: 0x000000001db03f6b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000006ca73ccb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000d9d486eb
+							TextureProperties	table: 0x000000002826b94b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000003f12b3ab
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x0000000042323a2b
+				COLT LMG	table: 0x000000002a5b1ceb
+					Camo	table: 0x000000003d141f4b
+						Slot2	table: 0x000000004070e6cb
+							TextureProperties	table: 0x000000005360942b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000a27e8d8b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000000c6319ab
+							TextureProperties	table: 0x000000001f4ed00b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000007182d96b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000b542efeb
+						Optics	
+						Barrel	
+						Underbarrel	
+						Ammo	
+						Other	
+					table: 0x000000001af69acb
+					Camo	table: 0x000000006bc3602b
+						Slot2	table: 0x00000000b78b06ab
+							TextureProperties	table: 0x0000000080c8130b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000091eb286b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x0000000044fc598b
+							TextureProperties	table: 0x0000000055fb53eb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000a6f6244b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000e4e64fcb
+			Scout	table: 0x00000000abe797cb
+					table: 0x00000000b813d52b
+					Camo	table: 0x0000000089dfdc8b
+						Slot2	table: 0x00000000ce0f260b
+							TextureProperties	table: 0x00000000d0cbd76b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000023a7d4cb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000009e93deeb
+							TextureProperties	table: 0x00000000efa7114b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000ff2c1bab
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x0000000032bba22b
+				GLOCK 17	table: 0x00000000ee8344eb
+					Camo	table: 0x00000000ff57a74b
+						Slot2	table: 0x0000000033774ecb
+							TextureProperties	table: 0x000000000b7a4c2b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000001a7f258b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000c063b1ab
+							TextureProperties	table: 0x00000000d16f880b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000224ba16b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000697807eb
+						Other	
+						Ammo	
+						Barrel	
+						Optics	
+				FRAG	table: 0x00000000053f8f8b
+					Camo	table: 0x00000000143bb1eb
+						Slot2	table: 0x00000000a9433a6b
+							TextureProperties	table: 0x00000000ba1601cb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000008b233f2b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000006737aa4b
+							TextureProperties	table: 0x0000000076abc4ab
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000598c350b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x000000009c50328b
+				MP5K	table: 0x000000007847104b
+					Camo	table: 0x00000000576a5aab
+						Slot2	table: 0x000000009253812b
+							TextureProperties	table: 0x00000000e15e688b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x00000000f19352eb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x00000000a56f5f0b
+							TextureProperties	table: 0x00000000b4545c6b
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000083079bcb
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000ce404d4b
+						Optics	
+						Barrel	
+						Underbarrel	
+						Ammo	
+						Other	
+				KNIFE	table: 0x00000000df136fab
+					Camo	table: 0x000000002c2e720b
+						Slot2	table: 0x00000000693e738b
+							TextureProperties	table: 0x00000000463b7deb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x0000000054c87e4b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+						Slot1	table: 0x000000003db30b6b
+							TextureProperties	table: 0x000000000a8460cb
+								OffsetStudsU	0
+								AnimationSpeedU	0
+								AnimationSpeedV	0
+								TextureId	
+								Animated	false
+								StudsPerTileV	1
+								OffsetStudsV	0
+								StudsPerTileU	1
+								Transparency	0
+							Name	
+							BrickProperties	table: 0x000000001bbb762b
+								DefaultColor	false
+								Material	SmoothPlastic
+								BrickColor	Black
+								Reflectance	0
+					Attachments	table: 0x00000000a78870ab
+	buyhistory	table: 0x000000004a7b31fb
+		x	5
+	version	3
+	stats	table: 0x000000005c763b5b
+		experience	76150
+		money	283
+		totalkills	324
+		totaldeaths	153
+		lastrewardtime	1652709818
+	tagrecovered	true
+particle	table: 0x000000008259c74b
+	reset	function: 0x0000000015148263
+	step	function: 0x00000000ef99667b
+	new	function: 0x00000000ea3479bb
+logic	table: 0x000000000e05372b
+	gammo	3
+	controllerstep	function: 0x00000000f1e8ef33
+	setsprintdisable	function: 0x00000000951ac973
+char	table: 0x00000000e4c50ccb
+	sprint	false
+	sprinting	function: 0x0000000003f79d23
+	step	function: 0x0000000047415613
+	unloadguns	function: 0x000000002497702b
+	slidespring	table: 0x00000000aab8e3db
+		_v0	0
+		_t0	1652716031.9452798
+		init	function: 0x00000000e3c859fb
+		_p1	0
+		_s	20
+		update	function: 0x000000001a0e78f3
+		accelerate	function: 0x0000000077737dfb
+		_d	1
+		_p0	0
+	speed	0
+	healrate	0.25
+	acceleration	0, 0, 0
+	loadgrenade	function: 0x0000000098b28fd3
+	setunaimedfov	function: 0x000000001239a15b
+	parkourdetection	function: 0x00000000b395ce3b
+	animstep	function: 0x0000000077f197bb
+	maxhealth	100
+	grenadehold	false
+	unaimedfov	80
+	ondied	table: 0x0000000005d126bb
+		_funcs	table: 0x0000000074a0301b
+			function: 0x000000003304719b	true
+			function: 0x0000000092c78b2b	true
+			function: 0x00000000c241cd9b	true
+	getslidecondition	function: 0x0000000096680b33
+	movementmode	stand
+	reloadsprings	function: 0x0000000062946b63
+	crouchspring	table: 0x00000000bc48f57b
+		_v0	0
+		_t0	1652716031.9452794
+		init	function: 0x00000000e3c859fb
+		_p1	0
+		_s	8
+		update	function: 0x000000001a0e78f3
+		accelerate	function: 0x0000000077737dfb
+		_d	1
+		_p0	0
+	disabledynamicstance	false
+	updatecharacter	function: 0x00000000508eb883
+	despawn	function: 0x00000000e935aaa3
+	setsprint	function: 0x00000000b90f463b
+	jump	function: 0x00000000e79841a3
+	spawn	function: 0x000000004cf4d013
+	distance	0
+	gethealth	function: 0x00000000f4dda32b
+	healwait	8
+	firemuzzlelight	function: 0x00000000b84dd5bb
+	loadarms	function: 0x000000000d625b63
+	pronespring	table: 0x00000000530ef69b
+		_v0	0
+		_t0	1652716031.9452786
+		init	function: 0x00000000e3c859fb
+		_p1	0
+		_s	8
+		update	function: 0x000000001a0e78f3
+		accelerate	function: 0x0000000077737dfb
+		_d	1
+		_p0	0
+	setmovementmode	function: 0x000000001fdd34a3
+	setbasewalkspeed	function: 0x00000000dad73443
+	getstate	function: 0x00000000acc8633b
+trajectory	function: 0x0000000058f4474b
+menu	table: 0x000000005ea8bd0b
+	votestep	function: 0x00000000b7d8cecb
+	loadmenu	function: 0x0000000014cdd3c3
+	isdeployed	function: 0x00000000c71e175b
+	step	function: 0x00000000f893b7e3
+	menumodels	false
+	updateinventorydata	function: 0x00000000b393f543
+	lastlogin	1652709818
+	hidemenu	function: 0x000000008494bccb
+	getrarityscale	function: 0x00000000807d06fb
+	squadstep	function: 0x00000000e3ee433b
+	deploy	function: 0x0000000001d1e9eb
+	getdisplayname	function: 0x000000006ba73353
+	playerstatus	table: 0x00000000c606bc8b
+		codgod175	table: 0x0000000057b395ab
+			Enabled	true
+		vastman23	table: 0x000000000e204c4b
+			Enabled	true
+		dddeaconstjon1010	table: 0x00000000a575500b
+			Enabled	true
+		hugger_yt	table: 0x0000000061960c8b
+			Enabled	true
+		icyy_Freshh	table: 0x00000000aba0a04b
+			Enabled	true
+		plouphy	table: 0x000000002302ca2b
+			Enabled	true
+		noah_theoat	table: 0x00000000f99d81cb
+			Enabled	true
+		OFFGXMER	table: 0x00000000f170162b
+			Enabled	true
+		Sanchezjuan2007	table: 0x00000000915f310b
+			Enabled	true
+		rweath1234	table: 0x00000000f836c843
+			Enabled	true
+		TastesLikeTea	table: 0x000000001601f08b
+			Enabled	true
+		officerallenthecool	table: 0x00000000b2c0348b
+			Enabled	true
+	controllertype	keyboard
+	logincd	86400
+	getattdisplayname	function: 0x0000000049f9cbf3
+	calcanimtime	function: 0x0000000035e16eab
+	loginstep	function: 0x00000000028108a3
+	setlighting	function: 0x000000005184e913
+	goprevpage	function: 0x00000000f604b32b
+	mapstep	function: 0x000000007f7ec603
+	updatelist	function: 0x00000000834b25fb
+	getweaponmodel	function: 0x00000000c4354dfb
+raycastutil	table: 0x000000009f65c9db
+	raycastSingleExit	function: 0x00000000a29314d3
+	raycastSingle	function: 0x000000000d25f76b
+	raycast	function: 0x00000000381ce99b
+current_valueectorutil	table: 0x00000000f5d6905b
+	slerp	function: 0x0000000095936a8b
+	toanglesyx	function: 0x00000000c2e3380b
+	random	function: 0x00000000c8b7bf3b
+	anglesyx	function: 0x00000000883980b3
+publicsettings	table: 0x000000002c18632b
+	ConsolePlaces	table: 0x000000003dd9468b
+		254965063	true
+	TestingPlaces	table: 0x00000000ca9e50eb
+		3568020459	true
+		5269129530	true
+		5281922586	true
+		299659045	true
+	actorClientReplicationRate	60
+	IgnoreWater	true
+	timeSyncSamplesBeforeReady	10
+	actorReplicationRate	20
+	replicationLogTimeWindow	3
+	timeSyncSamplesAtLimit	256
+	bulletLifeTime	1.5
+	bulletAcceleration	0, -196.1999969482422, 0
+instancetype	table: 0x00000000f7008d43
+	Override	function: 0x0000000051650833
+	CanSave	function: 0x00000000597ef2b3
+	IsBanland	function: 0x000000001cd028e3
+	IsConsole	function: 0x00000000c78dde53
+	IsVIP	function: 0x00000000796ac2cb
+	IsStudio	function: 0x000000009a0a7953
+	IsMatchMaking	function: 0x00000000beda909b
+	IsTest	function: 0x0000000025f7127b
+	_init	function: 0x0000000002f4ff23
+	GetString	function: 0x00000000008d7b1b
+rankcalculator	function: 0x00000000d8a97b4b

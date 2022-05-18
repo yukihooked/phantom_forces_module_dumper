@@ -35,7 +35,7 @@ for _,current_value in pairs(garbage_collection) do
             pf_framework.char = current_value
         elseif(rawget(current_value, "basecframe")) then
             pf_framework.cam = current_value
-        elseif(rawget(current_value, "current_valueotestep")) then
+        elseif(rawget(current_value, "votestep")) then
             pf_framework.hud = current_value
         elseif(rawget(current_value, "getbodyparts")) then
             pf_framework.replication = current_value

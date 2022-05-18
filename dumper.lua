@@ -48,7 +48,7 @@ for _,current_value in pairs(garbage_collection) do
         elseif(rawget(current_value, "unlocks")) then
             pf_framework.dirtyplayerdata = current_value
         elseif(rawget(current_value, "toanglesyx")) then
-            pf_framework.current_valueectorutil = current_value
+            pf_framework.vectorutil = current_value
         elseif(rawget(current_value, "IsVIP")) then
             pf_framework.instancetype = current_value
         elseif(rawget(current_value, "timehit")) then
